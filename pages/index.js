@@ -22,7 +22,9 @@ export default function Home() {
       <h3>Sobre este projeto</h3>
       <p>
         A ideia deste projeto é ganhar um desenvolvimento pessoal e trazer
-        alguns conhecimentos do Framework NextJS.
+        alguns conhecimentos do Framework NextJS. Lógico que não irei trazer
+        tudo porém com estas partes já irão conseguir dar seus primeiros passos
+        para conhecer essa tecnologia.
       </p>
       <Link href="/exemplos">
         <a>Alguns exemplos das novidades do NextJS</a>

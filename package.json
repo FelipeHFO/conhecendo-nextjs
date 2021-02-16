@@ -1,5 +1,5 @@
 {
-  "name": "lista-repositorios-nextjs",
+  "name": "conhecendo-nextjs",
   "version": "1.0.0",
   "description": "Exemplo de aplicação utilizando o Framework NextJS de React",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FelipeHFO/lista-repositorios-nextjs.git"
+    "url": "git+https://github.com/FelipeHFO/conhecendo-nextjs.git"
   },
   "author": "Felipe Oliveira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FelipeHFO/lista-repositorios-nextjs/issues"
+    "url": "https://github.com/FelipeHFO/conhecendo-nextjs/issues"
   },
-  "homepage": "https://github.com/FelipeHFO/lista-repositorios-nextjs#readme",
+  "homepage": "https://github.com/FelipeHFO/conhecendo-nextjs#readme",
   "dependencies": {
     "next": "^10.0.7",
     "react": "^17.0.1",
