@@ -15,8 +15,8 @@ export default function Home() {
 
       <h3>Brincadeiras à parte</h3>
       <p>
-        O título é uma marca de um desenvolvedor que no seu primeiro código ele
-        provavelmente fez um 'Hello World!'.
+        O título é um marco na vida de um desenvolvedor que no seu primeiro
+        código ele provavelmente fez um 'Hello World!'.
       </p>
 
       <h3>Sobre este projeto</h3>
