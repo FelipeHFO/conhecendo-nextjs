@@ -90,7 +90,7 @@ export default function Exemplos() {
         utilizando o getStaticsProps e transformando eles em dados estáticos
       </p>
       <Link href="repositorios">
-        <a>Meus repositorios</a>
+        <a className="link">Meus repositorios</a>
       </Link>
     </>
   );
