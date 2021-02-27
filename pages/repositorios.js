@@ -1,19 +1,26 @@
 export default function Repositorios({ repositorios }) {
   return (
     <>
-      <h1>Meus repositorios</h1>
-      <ul>
-        {repositorios.map((repo) => (
-          <li key={repo.id}>{repo.name}</li>
-        ))}
-      </ul>
+      <header>
+        <h1 className="title">Meus repositorios</h1>
+      </header>
+      <main className="container">
+        <h4 className="subtitle">Projetos</h4>
+        <ul>
+          {repositorios.map((repo) => (
+            <li className="items" key={repo.id}>
+              {repo.name}
+            </li>
+          ))}
+        </ul>
 
-      <h4>Explicação</h4>
-      <p>
-        Apesar de serem dados de uma resposta da API do Github, estes dados são
-        processados no momento de Build desta página, sendo assim gerada uma
-        página totalmente estática com esses dados.
-      </p>
+        <h4 className="subtitle">Explicação</h4>
+        <p className="text">
+          Apesar de serem dados de uma resposta da API do Github, estes dados
+          são processados no momento de Build desta página, sendo assim gerada
+          uma página totalmente estática com esses dados.
+        </p>
+      </main>
     </>
   );
 }
